@@ -1,12 +1,3 @@
-/**
- * Hacker News MCP — search and retrieve stories from Hacker News
- *
- * Tools:
- * - search_hn: Search HN stories via Algolia API
- * - get_top_stories: Get current top stories via Firebase API
- * - get_item: Get a single HN item (story/comment) by ID
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -21,6 +12,16 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * Hacker News MCP — search and retrieve stories from Hacker News
+ *
+ * Tools:
+ * - search_hn: Search HN stories via Algolia API
+ * - get_top_stories: Get current top stories via Firebase API
+ * - get_item: Get a single HN item (story/comment) by ID
+ */
+
 
 const ALGOLIA_BASE = 'https://hn.algolia.com/api/v1';
 const FIREBASE_BASE = 'https://hacker-news.firebaseio.com/v0';
