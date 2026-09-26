@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-hackernews",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Hacker News MCP — search and retrieve stories from Hacker News",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-c280236163e92d3b988ca2dc16a1f17d549d5d1befe2141b37a8da6a5a7dee49",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-c64c402ebe93b2ca91eda0ddede14a83afe638bc488aa4959c1cdb518ffbf858",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
